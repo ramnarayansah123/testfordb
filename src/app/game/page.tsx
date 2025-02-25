@@ -8,7 +8,7 @@ const Page = async () => {
 
     return (
       <div>
-        <h1>List of Books</h1>
+        <h1>Listj of Books</h1>
         <ul>
           {users.map((user: any) => (
             <li key={user.id}> {/* Add a unique 'key' for each item */}
