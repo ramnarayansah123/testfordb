@@ -9,7 +9,7 @@ export default function Page(){
 
     const addProduct=async ()=>{
         console.log(tittle,description);
-        let result = await fetch("http://localhost:3000/api/users",{
+        let result = await fetch("http://localhost:3000/api/users/[id]",{
         method:"POST",
         body:JSON.stringify({tittle,description})
     })
@@ -25,3 +25,4 @@ export default function Page(){
         </>
     )
 }
+
