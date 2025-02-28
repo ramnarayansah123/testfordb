@@ -3,7 +3,7 @@ import { prisma } from "../../../../../prisma/client";
 
 
 
-// This is for GET METHOD
+// This is for GET METHODddd
 export async function GET(request:NextRequest)
 {
   const user =await prisma.app.findMany()
