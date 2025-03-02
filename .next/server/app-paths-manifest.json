@@ -1,8 +1,6 @@
 {
   "/api/users/[id]/route": "app/api/users/[id]/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
+  "/updateproduct/page": "app/updateproduct/page.js",
   "/page": "app/page.js",
-  "/game/page": "app/game/page.js",
-  "/addproduct/page": "app/addproduct/page.js"
+  "/game/page": "app/game/page.js"
 }

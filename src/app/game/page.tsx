@@ -2,8 +2,8 @@
 import React from "react";
 
 const Page = async () => {
-  try {
-    const response = await fetch("http://localhost:3000/api/users");
+  try { 
+    const response = await fetch("http://localhost:3000/api/users/[id]");
     const users = await response.json();
 
     return (
